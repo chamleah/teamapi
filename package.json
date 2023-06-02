@@ -1,0 +1,22 @@
+{
+  "name": "teamapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chamleah/teamapi.git"
+  },
+  "author": "team 7",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chamleah/teamapi/issues"
+  },
+  "homepage": "https://github.com/chamleah/teamapi#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
