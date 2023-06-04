@@ -1,6 +1,15 @@
-app.get('/leah', (req,res) => {res.send("Hello Leah")}); 
+const express =require('express');
 
-app.get('/izak', (req,res) => {res.send("Hello Izak")}); 
+const port = 3000;
 
-app.get('/corban', (req,res) => {res.send("Hello Corban")}); 
+const app = express();
 
+app.get('/', (req,res) => {res.send("Hello Browser")});
+
+app.get('/corban', (req,res) => {res.send("Hello Corban")});
+
+app.get('/leah', (req,res) => {res.send("Hello Leah")});
+
+app.get('/izak', (req,res) => {res.send("Hello Izak")});
+
+app.listen(port, ()=>console.log("Listening"));
